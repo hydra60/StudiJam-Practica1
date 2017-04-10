@@ -43,6 +43,18 @@
             android:background="@color/boton"
             android:textSize="15dp"
             android:textColor="#fff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codastre-se mo Facebook"
+            android:layout_marginTop="111dp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terminos y Condiciones?"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
     </LinearLayout>
 
 </RelativeLayout>
