@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">StudyJamPrac1</string>
     <string name="Titulo">BlingBoard</string>
+    <string name="term"><u>Terminos Y Condiciones?</u></string>
+    <string name="iniciar">Sing In</string>
+    <string name="name">Email ó Phone</string>
+    <string name="pass">Password</string>
 </resources>

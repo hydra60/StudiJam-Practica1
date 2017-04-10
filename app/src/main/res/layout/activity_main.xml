@@ -9,16 +9,19 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ImageView
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:background="@drawable/facebook"
-            android:layout_marginLeft="145dp"
-            android:layout_marginTop="130dp"/>
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="140dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/fondo"
-            android:hint="Email Ou Telefone"
+            android:hint="@string/name"
+            android:textSize="15dp"
+            android:inputType="textEmailAddress"
             android:textColorHint="#ffff"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="30dp"
@@ -27,11 +30,13 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/pass"
             android:textColorHint="#ffff"
+            android:textSize="15dp"
             android:background="@color/fondo"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"/>
+            android:layout_marginRight="30dp"
+            android:inputType="textPassword"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +44,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="20dp"
-            android:text="Sing In"
+            android:text="@string/iniciar"
             android:background="@color/boton"
             android:textSize="15dp"
             android:textColor="#fff"/>
@@ -47,14 +52,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Codastre-se mo Facebook"
-            android:layout_marginTop="111dp"
-            android:gravity="center_horizontal"/>
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Terminos y Condiciones?"
+            android:text="@string/term"
             android:gravity="center_horizontal"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
     </LinearLayout>
 
 </RelativeLayout>
